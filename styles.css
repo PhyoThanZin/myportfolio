@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;}
+
+
+.violet {
+    background-color: violet;
+}
+
+.gradientbg {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
+}
+
+#bordergradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
+    border-radius: 20px !important;
+}
+
+.link-white {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.pacifico {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 3rem;
+}
+
+.icon {
+    font-size: 3em;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navicon {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ficon {
+    font-size: 1.5em;
+}
+  
+.hover:hover {
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover {
+    color: black;
+}
+
+.image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
