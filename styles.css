@@ -51,10 +51,7 @@ body {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(254,51,51,1) 89%, rgba(255,161,29,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.hover {
-    color: black;
+    font-weight: bold;
 }
 
 .image-container {
